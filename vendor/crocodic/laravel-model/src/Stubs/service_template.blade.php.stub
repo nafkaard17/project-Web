@@ -1,0 +1,11 @@
+<?php
+namespace App\Services;
+
+use Illuminate\Support\Facades\DB;
+use App\Repositories\{class_name};
+
+class {class_name}Service extends {class_name}
+{
+    // TODO : Make your own service method
+
+}

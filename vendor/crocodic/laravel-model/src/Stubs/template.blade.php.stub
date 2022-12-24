@@ -1,0 +1,9 @@
+<?php
+namespace App\Models;
+
+use Crocodic\LaravelModel\Core\Model;
+
+class {class_name}Model extends Model
+{
+    {properties}
+}

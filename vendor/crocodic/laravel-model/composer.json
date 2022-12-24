@@ -1,0 +1,38 @@
+{
+    "name": "crocodic/laravel-model",
+    "description": "Boost your laravel database relation with model enhancement",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ferry Ariawan",
+            "email": "ferry@crocodic.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+      "php": "^7.2",
+      "doctrine/dbal": "^2.10",
+      "illuminate/support":"^5.7|^6.0|^7.0|^8.0",
+      "illuminate/console":"^5.7|^6.0|^7.0|^8.0",
+      "illuminate/database": "^5.7|^6.0|^7.0|^8.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+      "psr-4": {
+        "Crocodic\\LaravelModel\\": "src/"
+      },
+      "files": [
+        "src/Helpers/General.php"
+      ]
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Crocodic\\LaravelModel\\LaravelModelServiceProvider"
+        ]
+      }
+    }
+}
